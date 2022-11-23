@@ -1,0 +1,24 @@
+The main vehicle for moving tickets through the global team is the unassigned queue in Zendesk. If a ticket does not have a current owner prepared to provide assistance to the customer within the timeframe defined by the priority of the ticket, it should be moved to the unassigned queue to be picked up by the next available engineer.
+This concept has a few underpinnings that must be upheld in order to function
+The unassigned queue must be actively monitored and tickets taken by the currently active geography at all times. Tickets within the queue will be handled in the order designated by their priority and SLA
+Ticket priorities will be correctly set on all tickets
+At the end of each geography's shift, no tickets will remain in the unassigned queue with expired SLA timers
+At the end of each geography's shift, there will be reasonable responses in all P1s
+Assuming the above, tickets will populate the unassigned queue from a handful of sources:
+New tickets opened via the support portal are placed in the unassigned queue along with an SLA for customer response
+If someone on the team is on PTO, any open P1 tickets in their queue will be placed in the unassigned queue by management
+If the PTO is more than 2 days, open P2s and P3s should be placed in the unassigned queue as well, at management's discretion
+If someone is out ill, any open P1 tickets in their queue will be placed in the unassigned queue by management
+Tickets that need to be owned by another geography for improved customer communication should be placed in the unassigned queue
+P1 tickets where the customer is looking for 24x7 debugging effort should be placed in the unassigned queue at the end of each geography's shift
+Tickets will be removed from the unassigned queue when an engineer is working on the ticket and interacting with the customer. They will be taken from the unassigned queue in the order dictated by their priority and SLA. SLAs must not be missed and P1s must be updated at intervals appropriate to the customer's premium/standard contract terms. During times of high call volume, escalate to seniors to gain additional bandwidth to maintain the status of the unassigned queue.
+Expected results
+A greatly simplified handoff process. Handoff tickets fall into two categories, tickets that need ownership in another geo and tickets that require 24x7 attention. In both cases, they will be cycled into the unassigned queue for work by the appropriate geo.
+Assurance that tickets do not go unattended when engineers are out of the office. Management will place them in the unassigned queue to be picked up by the next available engineer.
+Customers should never be overlooked for any reason
+Faster time to first response, which can be viewed in Zendesk at https://puppetlabs.zendesk.com/agent/reporting/overview/period:1/selected: first_response_time
+Team Best Practices and Guidelines:
+P1 tickets regardless of status should be updated daily
+Unresponsive Pending tickets should be followed up every couple days. Example start of your shift on Tuesday and Thursdays, go through and follow up on any Pending tickets that have not replied.
+If you have followed up with a customer without a reply, ask to close the ticket after the 3rd attempt.
+Use the Macros for easier phrasing and faster replies
