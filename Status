@@ -1,0 +1,7 @@
+TICKET STATUS GUIDE
+Unassigned- New tickets that are unassigned. If you plan on working on an unassigned ticket, assign it to yourself before you send a reply/message. This lets people know you’re working on the ticket and prevents a duplication in efforts. It's difficult to re-unassign a ticket, so make sure you will own it. 
+Open- Tickets waiting for responses from us. If you set the expectation with the customer that the next action is yours, the status is open.  
+Pending- Tickets waiting for a response from the customer on an active ticket. That means you're expecting something from the customer in a relatively short amount of time.
+On-Hold- Tickets that require time for a response.  Examples are a customer can't test a fix for a few weeks and wants to keep the ticket open incase they need more assistance.  We're waiting for a bug fix or the next release before we send something to the customer and want to keep the ticket open for any follow up after we deliver something.  Set yourself a reminder for your On-Hold tickets so you're actively following up and don't forget about it.     NOTE: A P1 should never be On-Hold.  
+Solved- I recommend not using this status as it's confusing.
+Closed- Ticket work has concluded.  You either confirm with the customer that it's ok to close, or the customer closes the ticket.  Only the customer can re-open a ticket.  You and the customer can still create follow-up requests for closed requests in the event this is necessary.
